@@ -8,6 +8,13 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {RouterModule} from '@angular/router';
 import {MainComponent} from './main/main.component';
 import {AppRoutingModule} from './app-routing.module';
+import {HeaderComponent} from './header/header.component';
+import {WelcomeComponent} from './welcome/welcome.component';
+import {MotivationComponent} from './motivation/motivation.component';
+import {ScrollSpyAffixModule} from 'ngx-scrollspy/dist/plugin/affix';
+import {BsDropdownModule, CollapseModule} from 'ngx-bootstrap';
+import {Ng2PageScrollModule} from 'ng2-page-scroll';
+import {ScrollSpyModule} from 'ngx-scrollspy';
 
 export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
@@ -16,7 +23,10 @@ export function createTranslateLoader(http: HttpClient) {
 @NgModule({
     declarations: [
         AppComponent,
-        MainComponent
+        MainComponent,
+        HeaderComponent,
+        WelcomeComponent,
+        MotivationComponent
     ],
     imports: [
         BrowserModule,
@@ -29,6 +39,11 @@ export function createTranslateLoader(http: HttpClient) {
                 deps: [HttpClient]
             }
         }),
+        ScrollSpyModule.forRoot(),
+        ScrollSpyAffixModule,
+        CollapseModule,
+        Ng2PageScrollModule,
+        BsDropdownModule.forRoot(),
         AppRoutingModule
     ],
     providers: [],
