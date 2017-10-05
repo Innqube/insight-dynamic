@@ -6,5 +6,9 @@
     "VALUES": "Valores",
     "MISSION_TEXT": "Conseguir que las empresas realicen investigación y desarrollo  a bajo costo, pudiendo de esta manera entregar al mundo productos con alto valor agregado.",
     "VISION_TEXT": "Ser reconocida como uno de los actores principales en el desarrollo de ciencia y tecnología en las empresas del país",
-    "VALUES_TEXT": "Las cuatro \"Co\": <ul><li>Colaboración</li><li>Confianza</li><li>Compromiso</li><li>Comunicación</li></ul>"
+    "VALUES_TEXT": "Las cuatro \"Co\": <ul><li>Colaboración</li><li>Confianza</li><li>Compromiso</li><li>Comunicación</li></ul>",
+    "CUSTOM_DEVELOPMENT": "Desarrollo de software a medida",
+    "NAME": "Nombre",
+    "MESSAGE": "Mensaje",
+    "SEND": "Enviar"
 }

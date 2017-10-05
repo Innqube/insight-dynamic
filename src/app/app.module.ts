@@ -16,6 +16,9 @@ import {BsDropdownModule, CollapseModule} from 'ngx-bootstrap';
 import {Ng2PageScrollModule} from 'ng2-page-scroll';
 import {ScrollSpyModule} from 'ngx-scrollspy';
 import {MissionVissionValuesComponent} from './mission-vission-values/mission-vission-values.component';
+import {ContactComponent} from './contact/contact.component';
+import {FooterComponent} from './footer/footer.component';
+import {ReactiveFormsModule} from '@angular/forms';
 
 export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
@@ -28,7 +31,9 @@ export function createTranslateLoader(http: HttpClient) {
         HeaderComponent,
         WelcomeComponent,
         MotivationComponent,
-        MissionVissionValuesComponent
+        MissionVissionValuesComponent,
+        ContactComponent,
+        FooterComponent
     ],
     imports: [
         BrowserModule,
@@ -46,6 +51,7 @@ export function createTranslateLoader(http: HttpClient) {
         CollapseModule,
         Ng2PageScrollModule,
         BsDropdownModule.forRoot(),
+        ReactiveFormsModule,
         AppRoutingModule
     ],
     providers: [],

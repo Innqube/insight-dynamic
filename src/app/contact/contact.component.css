@@ -1,0 +1,12 @@
+.contact-background {
+    background: url('../../assets/images/tablet.jpg') no-repeat;
+    background-size: cover;
+}
+
+.contact-background .dark-overlay {
+    opacity: 0.75;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.85);
+}
