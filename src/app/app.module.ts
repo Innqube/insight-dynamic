@@ -19,6 +19,8 @@ import {MissionVissionValuesComponent} from './mission-vission-values/mission-vi
 import {ContactComponent} from './contact/contact.component';
 import {FooterComponent} from './footer/footer.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import {AboutUsComponent} from './about-us/about-us.component';
+import {ProjectsComponent} from './projects/projects.component';
 
 export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
@@ -33,7 +35,9 @@ export function createTranslateLoader(http: HttpClient) {
         MotivationComponent,
         MissionVissionValuesComponent,
         ContactComponent,
-        FooterComponent
+        FooterComponent,
+        AboutUsComponent,
+        ProjectsComponent
     ],
     imports: [
         BrowserModule,
