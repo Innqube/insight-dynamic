@@ -2,6 +2,11 @@
     padding: 5px;
 }
 
+.language {
+    background: rgba(240, 240, 240, 1);
+    margin-left: 40px;
+}
+
 @media (max-width: 768px) {
     .logo-container {
         text-align: center;
@@ -12,8 +17,20 @@
         background: #f8f8f8;
     }
 
+    .language {
+        margin-left: 0;
+    }
+}
+
+.navbar {
+    border: none;
 }
 
 .navbar .navbar-nav a {
     padding: 22px 10px;
+}
+
+.navbar-toggle {
+    border: none;
+    padding: 15px 10px;
 }

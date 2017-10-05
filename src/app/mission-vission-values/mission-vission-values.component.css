@@ -1,0 +1,21 @@
+.column h4 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.column {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 320px;
+}
+
+.column i {
+    font-size: 10rem;
+}
+
+.icon {
+    margin-bottom: 30px;
+    text-align: center;
+}

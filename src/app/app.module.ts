@@ -15,6 +15,7 @@ import {ScrollSpyAffixModule} from 'ngx-scrollspy/dist/plugin/affix';
 import {BsDropdownModule, CollapseModule} from 'ngx-bootstrap';
 import {Ng2PageScrollModule} from 'ng2-page-scroll';
 import {ScrollSpyModule} from 'ngx-scrollspy';
+import {MissionVissionValuesComponent} from './mission-vission-values/mission-vission-values.component';
 
 export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
@@ -26,7 +27,8 @@ export function createTranslateLoader(http: HttpClient) {
         MainComponent,
         HeaderComponent,
         WelcomeComponent,
-        MotivationComponent
+        MotivationComponent,
+        MissionVissionValuesComponent
     ],
     imports: [
         BrowserModule,

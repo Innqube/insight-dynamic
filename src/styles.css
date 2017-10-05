@@ -5,6 +5,10 @@
     position: relative;
 }
 
+.section.orange {
+    background: #f27e00;
+}
+
 .dark-overlay {
     position: absolute;
     top: 0;
