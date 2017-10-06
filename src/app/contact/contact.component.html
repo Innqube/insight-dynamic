@@ -1,9 +1,12 @@
 <div class="section contact-background light">
     <div class="dark-overlay"></div>
     <div class="section-content">
-        <h3>Contacto</h3>
+        <h3>{{'CONTACT_US' | translate}}</h3>
         <hr/>
         <div class="row">
+            <div class="col-sm-6">
+                <p class="contact-text" [innerHTML]="'CONTACT_US_DESC' | translate"></p>
+            </div>
             <div class="col-sm-6">
                 <form class="form" [formGroup]="form">
                     <div class="form-group">
@@ -23,9 +26,6 @@
                         <a class="btn btn-info" href="mailto:hola?insightdynamic.com?subject=Contacto&body={{form.value.name + '%0D%0A%0D%0A' + form.value.message}}" type="button">{{'SEND' | translate}}</a>
                     </div>
                 </form>
-            </div>
-            <div class="col-sm-6">
-
             </div>
         </div>
     </div>

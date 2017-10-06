@@ -9,7 +9,7 @@ hr {
 /* You can add global styles to this file, and also import other style files */
 .section {
     min-height: 400px;
-    padding: 40px 20px;
+    padding: 40px 20px 60px;
     position: relative;
     margin: 0 -15px;
 }
@@ -19,7 +19,7 @@ hr {
 }
 
 .section.orange {
-    background: #f27e00;
+    background: #f27e00 url('./assets/images/brushed-alum.png');
 }
 
 .dark-overlay {
