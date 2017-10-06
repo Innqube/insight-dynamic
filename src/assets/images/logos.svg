@@ -81,6 +81,47 @@
          result="composite2"
          id="feComposite5143" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter889">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood879" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite881" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="5"
+         result="blur"
+         id="feGaussianBlur883" />
+      <feOffset
+         dx="2.77556e-17"
+         dy="0.5"
+         result="offset"
+         id="feOffset885" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite887" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter1245">
+      <feGaussianBlur
+         stdDeviation="1.5 1.5"
+         result="blur"
+         id="feGaussianBlur1243" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -90,16 +131,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="256.1618"
-     inkscape:cy="561.7658"
+     inkscape:cx="151.96702"
+     inkscape:cy="-246.50756"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="1028"
+     inkscape:window-width="1440"
+     inkscape:window-height="799"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -116,6 +157,24 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <text
+       id="text1097"
+       y="386.51117"
+       x="126.47826"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;filter:url(#filter1245)"
+       xml:space="preserve"
+       inkscape:export-xdpi="118"
+       inkscape:export-ydpi="118"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.64166832px;line-height:0.75;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.26458332"
+         y="386.51117"
+         x="126.47826"
+         id="tspan1093"
+         sodipodi:role="line">Insight Dynamic</tspan><tspan
+         id="tspan1095"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611155px;line-height:0.75;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:end;text-anchor:end;fill:#000000;stroke-width:0.26458332"
+         y="391.36703"
+         x="126.47826"
+         sodipodi:role="line">Without limits...</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path882"
@@ -149,7 +208,7 @@
          id="tspan4522"
          x="112.82589"
          y="201.28049"
-         style="stroke-width:0.26458332"></tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <path
        inkscape:connector-curvature="0"
        id="path1150"
@@ -208,5 +267,49 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="118.91"
        inkscape:export-ydpi="118.91" />
+    <text
+       id="text851"
+       y="386.13318"
+       x="126.47826"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       xml:space="preserve"
+       inkscape:export-xdpi="118"
+       inkscape:export-ydpi="118"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.64166832px;line-height:0.75;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.26458332;"
+         y="386.13318"
+         x="126.47826"
+         id="tspan847"
+         sodipodi:role="line">Insight Dynamic</tspan><tspan
+         id="tspan849"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611155px;line-height:0.75;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.26458332;"
+         y="390.98904"
+         x="126.47826"
+         sodipodi:role="line">Without limits...</tspan></text>
+    <path
+       sodipodi:nodetypes="cscccssccccccscscscccccccccccsccccccccccccccccssccccscccccccsccscsccsccssccccccccccccsccccsccccscccccsccccccccsscccsccccccccccccccsscs"
+       style="fill:#ffffff;stroke-width:0.35087603;filter:url(#filter889)"
+       d="m 71.257406,373.67807 c -1.299469,-2.53052 -1.568078,-3.40779 -1.706743,-5.57416 l -0.164563,-2.57098 -2.463697,0.0652 c -1.355034,0.0358 -2.63173,0.23322 -2.837104,0.4386 -0.58213,0.58213 -1.036206,0.43907 -0.763791,-0.24063 0.135352,-0.33772 0.354727,-1.82999 0.487499,-3.31615 l 0.241404,-2.70211 -1.502587,0.15826 c -0.826423,0.087 -2.215833,0.23456 -3.087576,0.32781 -0.871744,0.0932 -2.06891,0.41981 -2.66037,0.72567 l -1.075379,0.55609 0.865053,-1.51512 c 0.515608,-0.90308 0.942217,-2.33013 1.056074,-3.53267 l 0.191022,-2.01753 H 56.15988 c -1.109609,0 -2.228517,0.29336 -3.30797,0.86732 -0.897162,0.47702 -1.631202,0.81209 -1.631202,0.7446 0,-0.0675 0.219658,-0.65516 0.488128,-1.30592 0.26847,-0.65076 0.588192,-2.33389 0.71049,-3.74029 l 0.222363,-2.55709 -1.850838,0.20614 c -1.017959,0.11338 -2.377721,0.28696 -3.021691,0.38575 -1.072506,0.16451 -1.150599,0.11577 -0.9297,-0.58022 0.132636,-0.4179 0.35772,-1.61878 0.500188,-2.66864 l 0.259033,-1.90881 -1.083714,0.23471 c -1.081074,0.23416 -1.082102,0.23293 -0.42192,-0.50355 0.648476,-0.72343 0.648476,-0.74261 0,-0.95392 -2.58363,-0.84187 -5.749496,-2.65896 -5.749496,-3.30002 0,-0.19724 0.592104,-0.35948 1.315786,-0.36057 1.754616,-0.003 3.476091,-0.51491 5.147875,-1.53202 l 1.375959,-0.83712 -1.80825,-1.18286 c -0.994537,-0.65058 -1.811085,-1.26957 -1.814553,-1.37556 -0.0034,-0.10596 0.545589,-0.12824 1.220127,-0.0496 1.276054,0.14898 5.724946,-0.78161 7.120111,-1.48932 0.771017,-0.39111 0.705219,-0.47381 -1.666661,-2.09444 -2.416974,-1.65145 -3.082506,-2.29174 -1.855336,-1.78499 2.441947,1.00839 7.354256,0.81522 10.251719,-0.40315 l 1.239471,-0.52119 -1.298038,-0.76741 c -0.713921,-0.42209 -1.888724,-1.1009 -2.610671,-1.50849 l -1.312634,-0.74105 2.660291,0.17071 c 2.643504,0.16966 7.76137,-0.65079 8.168462,-1.30947 0.100403,-0.16246 -0.607035,-0.86263 -1.572083,-1.55596 -0.965048,-0.69332 -1.754634,-1.40328 -1.754634,-1.5777 0,-0.17441 0.735619,-0.0958 1.634708,0.17485 2.434508,0.73269 6.495612,0.55952 9.174692,-0.39121 0.288697,-0.10251 -0.29617,-0.88891 -1.578943,-2.12316 -1.628631,-1.56704 -1.861472,-1.91619 -1.160308,-1.73995 4.125355,1.03691 10.527945,1.62964 10.525165,0.97438 -6.14e-4,-0.14473 -0.631689,-1.21052 -1.402388,-2.3684 -1.634864,-2.45621 -1.759489,-2.96253 -0.481819,-1.95751 0.506928,0.39874 2.416412,1.20379 4.243301,1.78901 3.831907,1.22747 7.262688,1.4335 9.349727,0.56148 1.264501,-0.52835 1.487764,-0.49816 6.642453,0.89839 2.93369,0.79481 6.18254,1.60936 7.21967,1.8101 1.53702,0.29751 2.1534,0.64831 3.33338,1.8972 1.37089,1.45093 1.62853,1.56723 4.85681,2.19246 1.87502,0.36314 4.16447,0.99494 5.08765,1.40399 0.92318,0.40906 2.66535,0.83639 3.87149,0.9496 1.96833,0.18476 2.19297,0.28549 2.19297,0.98334 0,0.42761 -0.39473,1.35915 -0.87719,2.0701 -0.48245,0.71093 -0.87719,1.54087 -0.87719,1.84429 0,0.30344 -1.10035,1.63689 -2.44523,2.96322 -1.34488,1.32635 -2.68383,2.87291 -2.97544,3.43683 -0.69327,1.34062 -2.18156,2.49075 -3.22311,2.49075 -0.98924,0 -1.00829,-0.11604 -0.23428,-1.42628 0.72898,-1.23409 0.42787,-1.64585 -0.65097,-0.8902 -0.44138,0.30916 -1.16212,0.56211 -1.60163,0.56211 -0.62112,0 -0.79912,-0.19785 -0.79912,-0.88821 0,-1.20458 -0.90858,-1.4747 -1.88257,-0.55969 -1.04453,0.9813 -1.24244,0.94516 -1.67877,-0.30648 -0.43186,-1.23884 -0.67267,-1.2942 -1.52636,-0.35088 -0.87996,0.97233 -1.38681,0.88226 -2.41287,-0.42879 l -0.88479,-1.13055 -0.92483,0.86739 -0.92483,0.86739 -0.64427,-0.79416 c -0.35435,-0.4368 -0.72553,-0.98944 -0.82484,-1.22808 -0.12244,-0.29422 -0.41372,-0.16725 -0.90486,0.39444 -0.932911,1.06693 -0.912551,1.31284 0.16726,2.02035 0.69873,0.45783 1.07061,0.5026 1.71938,0.207 0.97333,-0.44348 1.2487,-0.25328 1.2487,0.86243 0,0.88119 0.65323,1.07776 1.33058,0.40041 0.32383,-0.32384 0.55762,-0.0869 1.03509,1.04906 0.69409,1.6513 0.77221,1.68431 2.21753,0.9369 1.00864,-0.52159 1.04992,-0.51046 1.38608,0.37371 0.19057,0.50123 0.34648,1.08341 0.34648,1.29374 0,0.21032 0.29785,0.11285 0.66189,-0.21659 0.62893,-0.56917 0.69747,-0.55376 1.3765,0.30948 l 0.71462,0.90849 1.21367,-1.06562 c 0.66752,-0.58609 1.46914,-1.06561 1.78138,-1.06561 1.19139,0 0.31025,3.03431 -1.31688,4.53483 -0.50733,0.46785 -0.923,1.17838 -0.92373,1.57894 -0.003,1.28823 -1.29293,2.89903 -3.29281,4.10972 -1.19476,0.72331 -1.95296,1.42564 -1.95906,1.81471 -0.006,0.35975 -0.17251,0.53429 -0.38514,0.40287 -0.20634,-0.12757 -0.33382,-0.96579 -0.28328,-1.86281 l 0.0919,-1.63093 -1.18402,0.0977 c -0.65121,0.0537 -1.42171,0.29058 -1.71223,0.52632 -0.44809,0.36359 -0.48352,0.32216 -0.2336,-0.27315 0.16203,-0.38596 0.36428,-1.19362 0.44943,-1.7948 0.12672,-0.89453 -0.0264,-1.22119 -0.84293,-1.79848 -1.60273,-1.13312 -3.03157,-1.28561 -4.783751,-0.51053 -2.97106,1.31424 -5.631131,4.94488 -6.093259,8.31648 -0.118862,0.86724 -0.334564,1.57678 -0.479324,1.57678 -0.144765,0 -0.539743,-0.58276 -0.877735,-1.29502 l -0.614532,-1.29502 -0.822741,0.95648 c -1.079715,1.25525 -2.015441,4.52863 -1.785218,6.2451 0.09985,0.74434 0.108916,1.35336 0.02017,1.35336 -0.08875,0 -0.550739,-0.88047 -1.026652,-1.95659 -0.502301,-1.1358 -1.046175,-1.89697 -1.296477,-1.81447 -0.23715,0.0781 -0.96026,1.156 -1.606911,2.39518 -1.100487,2.10889 -1.166005,2.42608 -1.023841,4.95664 0.08353,1.48697 0.01723,2.62034 -0.147368,2.51863 -0.164586,-0.10172 -0.74424,-0.9641 -1.288116,-1.9164 -0.935757,-1.63844 -1.019449,-1.69765 -1.558233,-1.10229 -0.974001,1.07624 -1.920236,3.66638 -2.17507,5.95381 -0.13434,1.20584 -0.388929,2.10301 -0.565756,1.99372 -0.176824,-0.10927 -0.645769,-0.83431 -1.042098,-1.61118 -0.709068,-1.3899 -0.732015,-1.40215 -1.434412,-0.76649 -1.138612,1.03043 -1.729986,2.47834 -2.165473,5.30189 l -0.406327,2.63443 z m 36.103464,-50.27098 c 0,-0.35595 -0.41541,-0.5056 -1.4035,-0.5056 -1.70169,0 -1.7645,0.19743 -0.26316,0.82722 1.25293,0.52559 1.66666,0.44574 1.66666,-0.32162 z"
+       id="path853"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="118"
+       inkscape:export-ydpi="118" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="126.47826"
+       y="386.13318"
+       id="text1087"
+       inkscape:export-xdpi="118"
+       inkscape:export-ydpi="118"><tspan
+         sodipodi:role="line"
+         id="tspan1083"
+         x="126.47826"
+         y="386.13318"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.64166832px;line-height:0.75;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.26458332;">Insight Dynamic</tspan><tspan
+         sodipodi:role="line"
+         x="126.47826"
+         y="390.98904"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611155px;line-height:0.75;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.26458332;"
+         id="tspan1085">Without limits...</tspan></text>
   </g>
 </svg>

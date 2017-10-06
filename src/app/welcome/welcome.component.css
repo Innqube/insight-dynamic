@@ -1,8 +1,9 @@
 .welcome-background {
     -webkit-background-size: cover;
     background-size: cover;
-    background-position-y: bottom;
-    background: url("../../assets/images/bulb.jpg") no-repeat;
+    background-position-y: top;
+    background-position-x: right;
+    background-image: url("../../assets/images/bulb.jpg");
     height: 600px;
     line-height: 600px;
 }
