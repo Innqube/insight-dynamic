@@ -1,0 +1,18 @@
+.btn-darker {
+    background: rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #eee;
+}
+
+.btn-darker:hover {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.btn-darker:focus,
+.btn-darker:active {
+    outline: none;
+}
+
+.btn-group .btn {
+    margin: 0;
+}

@@ -1,6 +1,12 @@
 .footer {
     background: #333;
     color: #ddd;
+    font-size: 0.8em;
     padding: 5px 15px;
     margin: 0 -15px;
+    font-family: sans-serif;
+}
+
+a {
+    color: #ddd;
 }

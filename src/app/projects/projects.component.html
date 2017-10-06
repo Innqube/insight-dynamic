@@ -1,7 +1,30 @@
-<div class="section">
+<div class="section orange">
     <div class="section-content">
-        <p>
-            projects works!
-        </p>
+        <h3>{{'SOME_OF_OUR_PROJECTS' | translate}}</h3>
+        <hr/>
+        <h4><strong>{{projects[currentProjectIndex].title | translate}}</strong></h4>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <p>{{projects[currentProjectIndex].description | translate}}</p>
+            </div>
+            <div class="col-sm-6 text-center">
+                <div *ngFor="let video of projects[currentProjectIndex].videos">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="btn-group">
+                    <button class="btn btn-darker" type="button" (click)="previous()">
+                        <i class="fa fa-caret-left" aria-hidden="true"></i>
+                    </button>
+                    <button class="btn btn-darker" type="button" (click)="next()">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

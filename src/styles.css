@@ -1,3 +1,11 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    border-top: 1px solid rgba(200, 200, 200, 0.25);
+}
 /* You can add global styles to this file, and also import other style files */
 .section {
     min-height: 400px;
@@ -28,4 +36,8 @@
 
 .light {
     color: #eee;
+}
+
+p {
+    font-weight: lighter;
 }

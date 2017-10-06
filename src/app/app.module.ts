@@ -12,7 +12,7 @@ import {HeaderComponent} from './header/header.component';
 import {WelcomeComponent} from './welcome/welcome.component';
 import {MotivationComponent} from './motivation/motivation.component';
 import {ScrollSpyAffixModule} from 'ngx-scrollspy/dist/plugin/affix';
-import {BsDropdownModule, CollapseModule} from 'ngx-bootstrap';
+import {BsDropdownModule, CarouselModule, CollapseModule} from 'ngx-bootstrap';
 import {Ng2PageScrollModule} from 'ng2-page-scroll';
 import {ScrollSpyModule} from 'ngx-scrollspy';
 import {MissionVissionValuesComponent} from './mission-vission-values/mission-vission-values.component';
@@ -21,6 +21,7 @@ import {FooterComponent} from './footer/footer.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {AboutUsComponent} from './about-us/about-us.component';
 import {ProjectsComponent} from './projects/projects.component';
+import {PartnersComponent} from './partners/partners.component';
 
 export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
@@ -37,7 +38,8 @@ export function createTranslateLoader(http: HttpClient) {
         ContactComponent,
         FooterComponent,
         AboutUsComponent,
-        ProjectsComponent
+        ProjectsComponent,
+        PartnersComponent
     ],
     imports: [
         BrowserModule,
@@ -56,6 +58,7 @@ export function createTranslateLoader(http: HttpClient) {
         Ng2PageScrollModule,
         BsDropdownModule.forRoot(),
         ReactiveFormsModule,
+        CarouselModule.forRoot(),
         AppRoutingModule
     ],
     providers: [],

@@ -8,7 +8,7 @@
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-    min-height: 320px;
+    min-height: 360px;
 }
 
 .column i {
@@ -18,4 +18,8 @@
 .icon {
     margin-bottom: 30px;
     text-align: center;
+}
+
+.section {
+    background: #f27e00 url('../../assets/images/brushed-alum.png');
 }

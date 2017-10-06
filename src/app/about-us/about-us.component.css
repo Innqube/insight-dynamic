@@ -1,0 +1,21 @@
+img {
+    border-radius: 5px;
+    width: 250px;
+}
+
+.name {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.contact {
+    color: #202020;
+    font-size: 0.9em;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    color: #202020;
+}

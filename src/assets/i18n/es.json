@@ -10,5 +10,13 @@
     "CUSTOM_DEVELOPMENT": "Desarrollo de software a medida",
     "NAME": "Nombre",
     "MESSAGE": "Mensaje",
-    "SEND": "Enviar"
+    "SEND": "Enviar",
+    "ACELEROCARDIOGRAMA": "Acelerocardiograma",
+    "ACELEROCARDIOGRAMA_DESC": "Es una  aplicación para Smartphone (App) que mide los movimientos del latido del corazón y se la puede usar para hacer un cardiograma (sismocardiograma o balistocardiograma) y calcular la frecuencia cardíaca. Pero su principal función es de servir como instrumento de recolección de datos  que permita en el futuro desarrollar aplicaciones que reconozca patrones de posibles patologías. Haciendo uso de técnicas de procesamiento de señales y máquinas de aprendizaje automático (machine learning)",
+    "OFTALMOSCOPIO": "Oftalmoscopio Celular",
+    "OFTALMOSCOPIO_DESC": "En una aplicación para Smartphone (app) que permite hacer un fondo de ojo con los principio de un oftalmoscopio directo, usando la cámara del celular y alguna lente si fuera necesario. Es principalmente un desarrollo para oftalmólogos que realizan tarea clínica en lugares aislados y alejado de equipamiento médico. Esta también se podrá usar como base de desarrollos de diagnóstico inteligente usando  procesamiento de imágenes.",
+    "SOME_OF_OUR_PROJECTS": "Algunos de nuestros proyectos",
+    "ABOUT_US": "Acerca de nosotros",
+    "COMPANY": "Empresa",
+    "PARTNERS": "Empresas y entidades con quienes trabajamos"
 }
