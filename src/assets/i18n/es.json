@@ -18,8 +18,15 @@
     "SOME_OF_OUR_PROJECTS": "Algunos de nuestros proyectos",
     "ABOUT_US": "Acerca de nosotros",
     "COMPANY": "Empresa",
-    "PARTNERS": "Empresas y entidades con quienes trabajamos",
+    "PARTNERS": "Partners",
     "OUR_MISSION_VISION_AND_VALUES": "Nuestra misión, visión y valores",
     "CONTACT_US": "Contacto",
-    "CONTACT_US_DESC": "¿Tenés alguna propuesta en la que podamos colaborar?<br/><br/>¿Querés conocer más de lo que hacemos?"
+    "CONTACT_US_DESC": "¿Tenés alguna propuesta en la que podamos colaborar?<br/><br/>¿Querés conocer más de lo que hacemos?",
+    "HOME": "Inicio",
+    "PROJECTS": "Proyectos",
+    "US": "Nosotros",
+    "MISSION_VISION_VALUES": "Misión, Visión y Valores",
+    "PARTNERS_WE_WORK_WITH": "Empresas y entidades con quienes trabajamos",
+    "CONTACT": "Contacto"
+
 }
