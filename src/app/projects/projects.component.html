@@ -11,7 +11,10 @@
                     <p>{{projects[currentProjectIndex].description | translate}}</p>
                 </div>
                 <div class="col-sm-6 text-center">
+                    <!--<iframe jsname="L5Fo6c" jscontroller="qFkC8" jsaction="rcuQ6b:WYd;" onload="this.setAttribute('data-iframe-loaded', true)" class="YMEQtf L6cTce-purZT L6cTce-pSzOP" frameborder="0" aria-label="Drive, BPM-App.mp4" allowfullscreen="" data-iframe-loaded="true" src="https://drive.google.com/file/d/0B0Z1Sl49bJUoTllFdHRYMjVLdjg/preview?authuser=0"></iframe>-->
+                    <!--<iframe jsname="L5Fo6c" jscontroller="qFkC8" jsaction="rcuQ6b:WYd;" onload="this.setAttribute('data-iframe-loaded', true)" class="YMEQtf L6cTce-purZT L6cTce-pSzOP" frameborder="0" aria-label="Drive, 20170710_200150-a.mp4" allowfullscreen="" data-iframe-loaded="true" src="https://drive.google.com/file/d/0B0Z1Sl49bJUoTXZtLXRtS2ItaDA/preview?authuser=0"></iframe>-->
                     <div *ngFor="let video of projects[currentProjectIndex].videos">
+                        <iframe jsname="L5Fo6c" jscontroller="qFkC8" jsaction="rcuQ6b:WYd;" onload="this.setAttribute('data-iframe-loaded', true)" frameborder="0" allowfullscreen="" data-iframe-loaded="true" src="{{video}}"></iframe>
                     </div>
                 </div>
             </div>

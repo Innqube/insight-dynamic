@@ -15,13 +15,15 @@ export class ProjectsComponent implements OnInit {
         {
             title: 'ACELEROCARDIOGRAMA',
             videos: [
-                'https://drive.google.com/file/d/0B0Z1Sl49bJUoTllFdHRYMjVLdjg/view'
+                'https://drive.google.com/file/d/0B0Z1Sl49bJUoTllFdHRYMjVLdjg/preview?authuser=0'
             ],
             description: 'ACELEROCARDIOGRAMA_DESC'
         },
         {
             title: 'OFTALMOSCOPIO',
-            videos: [],
+            videos: [
+                'https://drive.google.com/file/d/0B0Z1Sl49bJUoTXZtLXRtS2ItaDA/preview?authuser=0'
+            ],
             description: 'OFTALMOSCOPIO_DESC'
         }
     ];
