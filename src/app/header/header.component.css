@@ -36,3 +36,9 @@
     padding: 15px 10px;
     margin-right: 5px;
 }
+
+.dropdown-menu {
+    background: #f8f8f8;
+    font-size: 1em;
+    text-align: center;
+}

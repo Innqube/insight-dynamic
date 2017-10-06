@@ -16,6 +16,7 @@ export class ContactComponent implements OnInit {
     ngOnInit() {
         this.form = this.fb.group({
             name: null,
+            company: null,
             message: null
         });
     }

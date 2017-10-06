@@ -9,7 +9,7 @@ hr {
 /* You can add global styles to this file, and also import other style files */
 .section {
     min-height: 400px;
-    padding: 40px 20px 60px;
+    padding: 40px 60px 60px;
     position: relative;
     margin: 0 -15px;
 }

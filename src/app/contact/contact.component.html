@@ -15,7 +15,7 @@
                     </div>
                     <div class="form-group">
                         <label>{{'COMPANY' | translate}}</label>
-                        <input formControlName="name" type="text" class="form-control">
+                        <input formControlName="company" type="text" class="form-control">
                     </div>
                     <div class="form-group">
                         <label>{{'MESSAGE' | translate}}</label>
@@ -23,7 +23,7 @@
                     </div>
                     <hr/>
                     <div class="text-right">
-                        <a class="btn btn-info" href="mailto:hola?insightdynamic.com?subject=Contacto&body={{form.value.name + '%0D%0A%0D%0A' + form.value.message}}" type="button">{{'SEND' | translate}}</a>
+                        <a class="btn btn-info" href="mailto:hola?insightdynamic.com?subject=Contacto&body={{form.value.name + '%0D%0A%0D%0A' + form.value.company + '%0D%0A%0D%0A' + form.value.message}}" type="button">{{'SEND' | translate}}</a>
                     </div>
                 </form>
             </div>
