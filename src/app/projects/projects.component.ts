@@ -53,6 +53,7 @@ export class ProjectsComponent implements OnInit {
     }
 
     previous() {
+        this.timerSubscription.unsubscribe();
         if (this.currentProjectIndex === 0) {
             this.currentProjectIndex = this.projects.length - 1;
         } else {
@@ -61,4 +62,7 @@ export class ProjectsComponent implements OnInit {
         this.currentProject = this.projects[this.currentProjectIndex];
     }
 
+    clickVideo() {
+        this.timerSubscription.unsubscribe();
+    }
 }
