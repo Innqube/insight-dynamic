@@ -1,0 +1,30 @@
+dist: trusty
+sudo: required
+addons:
+  apt:
+    packages:
+    - lftp
+language: node_js
+node_js:
+  - "6"
+os:
+  - linux
+env:
+  global:
+    - DBUS_SESSION_BUS_ADDRESS=/dev/null
+    - DISPLAY=:99.0
+    - CHROME_BIN=chromium-browser
+before_script:
+  - sh -e /etc/init.d/xvfb start
+install:
+  - npm install
+script:
+  - npm run test-coverage
+  - npm run build-prod
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  - mkdir ~/.lftp
+  - echo 'set ssl:verify-certificate no' > ~/.lftp/rc
+  - lftp -c "open -u $FTP_USER,$FTP_PASSWORD $FTP_SERVER; rm -r assets"
+  - lftp -c "open -u $FTP_USER,$FTP_PASSWORD $FTP_SERVER; glob -a rm -r *"
+  - cd dist && find . -type f -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASSWORD ftp://$FTP_SERVER/{} \;
