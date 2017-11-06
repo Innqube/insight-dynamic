@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
 
     collapsed = true;
 
-    constructor(private translate: TranslateService) {
+    constructor(public translate: TranslateService) {
     }
 
     ngOnInit() {

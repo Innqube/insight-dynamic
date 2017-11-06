@@ -47,12 +47,18 @@
                 <li class="dropdown language" dropdown>
                     <a dropdownToggle type="button" class="dropdown-toggle" data-toggle="dropdown"
                        role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-language"></i> Español <span class="caret"></span>
+                        <i class="fa fa-language"></i> {{translate.currentLang === 'es' ? 'Español' : 'English'}} <span class="caret"></span>
                     </a>
                     <ul *dropdownMenu class="dropdown-menu" role="menu">
-                        <li role="menuitem"><a class="dropdown-item" href="#" (click)="changeLanguage('en')">English</a>
+                        <li role="menuitem">
+                            <a class="dropdown-item" href="#" (click)="changeLanguage('en')">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>English
+                            </a>
                         </li>
-                        <li role="menuitem"><a class="dropdown-item" href="#" (click)="changeLanguage('es')">Español</a>
+                        <li role="menuitem">
+                            <a class="dropdown-item" href="#" (click)="changeLanguage('es')">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>Español
+                            </a>
                         </li>
                     </ul>
                 </li>

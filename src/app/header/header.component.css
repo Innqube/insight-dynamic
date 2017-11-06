@@ -42,3 +42,7 @@
     font-size: 1em;
     text-align: center;
 }
+
+.dropdown-menu i {
+    margin-right: 10px;
+}
