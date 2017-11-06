@@ -23,7 +23,7 @@
                     </div>
                     <hr/>
                     <div class="text-right">
-                        <a class="btn btn-info" href="mailto:hola?insightdynamic.com?subject=Contacto&body={{form.value.name + '%0D%0A%0D%0A' + form.value.company + '%0D%0A%0D%0A' + form.value.message}}" type="button">{{'SEND' | translate}}</a>
+                        <a class="btn btn-info" href="mailto:hola@insightdynamic.com.ar?subject=Contacto&body={{'Nombre: ' + form.value.name + '%0D%0A%0D%0A' + 'Empresa: ' + form.value.company + '%0D%0A%0D%0A' + 'Mensaje: ' + form.value.message}}" type="button">{{'SEND' | translate}}</a>
                     </div>
                 </form>
             </div>

@@ -47,7 +47,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit {
             videoId: videoId,
             playerVars: {'autoplay': 0, 'rel': 0, 'controls': 2},
             events: {
-                'onStateChange': ev => this.clickVideo(ev)
+                'onStateChange': ev => this.youTubePlayerStateChange(ev)
             }
         });
     }
@@ -92,7 +92,7 @@ export class ProjectsComponent implements OnInit, AfterViewInit {
         }
     }
 
-    clickVideo(event) {
+    youTubePlayerStateChange(event) {
         if (event.data === (<any>window).YT.PlayerState.PLAYING) {
             this.timerSubscription.unsubscribe();
         }
