@@ -14,6 +14,12 @@ hr {
     margin: 0 -15px;
 }
 
+@media (max-width: 768px) {
+    .section {
+        padding: 40px 30px 60px;
+    }
+}
+
 .section-content {
     position: relative;
 }
